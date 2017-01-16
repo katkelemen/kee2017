@@ -1,0 +1,29 @@
+/*@font-face {
+    font-family: GillSans;
+    src: url(/assets/fonts/GillSans.ttc);
+}
+
+@font-face {
+    font-family: SignPainter;
+    src: url(/assets/fonts/SignPainter.otf);
+}*/
+
+/*chrome*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  overflow: -moz-scrollbars-none;
+  position: relative;
+  min-height: 900px;
+}
+
+body {
+	background-color: #9b2542;
+}
+
+.flag_hu, .flag_uk {
+	width: 35px;
+	height: 35px;
+}
