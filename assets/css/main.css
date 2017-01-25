@@ -16,24 +16,24 @@
 html {
   overflow: -moz-scrollbars-none;
   position: relative;
-  min-height: 900px;
+  height: 100%;
 }
 
 body {
 	background-color: #fff;
 }
 
+.flags {
+	margin-top: 30px;
+}
+
 .flag_hu, .flag_uk {
-	position: relative;
-	left: -5px;
 	width: 30px;
 	height: 30px;
 }
 
-.flag-container {
-	width: 100%;
-	background-color: #000;
-}
+
+
 
 /*video*/
 
@@ -44,6 +44,7 @@ body {
 .homepage-hero-module {
   border-right: none;
   border-left: none;
+  margin-bottom: 40px;
   position: relative;
 }
 .no-video .video-container video,
@@ -61,7 +62,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #000;
+  background: #fff;
 }
 .video-container .poster img {
   width: 100%;
@@ -71,7 +72,7 @@ body {
 .video-container .filter {
   z-index: 100;
   position: absolute;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.1);
   width: 100%;
 }
 .video-container .title-container {
@@ -107,3 +108,10 @@ body {
 .video-container video.fillWidth {
   width: 100%;
 }
+
+.footer {
+  min-height: 100px;
+  border-top: solid 1px grey;
+}
+
+
