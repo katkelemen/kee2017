@@ -1,9 +1,4 @@
 /*@font-face {
-    font-family: GillSans;
-    src: url(/assets/fonts/GillSans.ttc);
-}
-
-@font-face {
     font-family: SignPainter;
     src: url(/assets/fonts/SignPainter.otf);
 }*/
@@ -20,7 +15,18 @@ html {
 }
 
 body {
-	background-color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white, lightblue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, lightblue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, lightblue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, lightblue); /* Standard syntax */
 }
 
 .flags {
@@ -38,7 +44,8 @@ body {
 /*video*/
 
 .headline h1{
-	font-size: 56px;
+  font-family: 'Satisfy', cursive;
+	font-size: 100px;
 }
 
 .homepage-hero-module {
@@ -62,7 +69,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #fff;
+  background: white;
 }
 .video-container .poster img {
   width: 100%;
@@ -72,13 +79,13 @@ body {
 .video-container .filter {
   z-index: 100;
   position: absolute;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0);
   width: 100%;
 }
 .video-container .title-container {
   z-index: 1000;
   position: absolute;
-  top: 50%;
+  top: 15%;
   width: 100%;
   text-align: center;
   color: #fff;
@@ -114,4 +121,6 @@ body {
   border-top: solid 1px grey;
 }
 
-
+.first-section {
+  font-size: 
+}
