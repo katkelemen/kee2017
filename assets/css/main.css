@@ -8,6 +8,10 @@
   display: none;
 }
 
+:root {
+  --mycolor: #fde6e7;
+};
+
 html {
   overflow: -moz-scrollbars-none;
   position: relative;
@@ -17,20 +21,25 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
-
   height: 100%;
   margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-	background: white; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(white, lightblue); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, lightblue); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, lightblue); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, lightblue); /* Standard syntax */
+  background-color: var(--mycolor);
+  color: grey;
+}
+
+.feedback {
+  color: dimgray;
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}
+
+a {
+  color: dimgray;
 }
 
 .flags {
-	margin-top: 30px;
+	margin: 30px auto;
+  text-align: center;
 }
 
 .flag_hu, .flag_uk {
@@ -38,15 +47,34 @@ body {
 	height: 30px;
 }
 
+.headline h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 100px;
+  padding-top: 150px;
+  color: white;
+}
 
+.hl {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #333333;
+}
+
+.section {
+  margin-top: 55px;
+  border-top: solid 1px grey;
+  padding-top: 50px;
+}
+
+p {
+  text-align: center;
+}
 
 
 /*video*/
 
-.headline h1{
-  font-family: 'Satisfy', cursive;
-	font-size: 100px;
-}
+
 
 .homepage-hero-module {
   border-right: none;
@@ -69,7 +97,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: white;
+  background: var(--mycolor);
 }
 .video-container .poster img {
   width: 100%;
@@ -88,7 +116,7 @@ body {
   top: 15%;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: var(--mycolor);
 }
 .video-container .description .inner {
   font-size: 1em;
