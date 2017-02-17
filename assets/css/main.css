@@ -27,6 +27,12 @@ body {
   color: grey;
 }
 
+.navbar-default {
+  background-color: var(--mycolor);
+  border: none;
+  font-family: 'Satisfy', cursive;
+}
+
 .feedback {
   color: dimgray;
   font-family: 'Satisfy', cursive;
@@ -64,7 +70,6 @@ a {
 
 .section {
   margin-top: 50px;
-  border-top: dotted 0.5px grey;
   padding-top: 50px;
 }
 
